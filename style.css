@@ -32,35 +32,35 @@ body{
     margin: 0;
 }
 main{
-    width: 1000px;
+    width: 1200px;
     max-width:100%;
     display: flex;
     border-radius:10px;
     overflow: hidden;
     background-color: var(--Soft-violet);
-    min-height: 400px;
+    min-height: 500px;
 }
 h1,
 p{
     font-family:"Inter", sans-serif;
 }
 h1{
-    font-size: 34.5px;
+    font-size: 36px;
     color: var(--white);
 }
 p{
-    font-size: 14px;
+    font-size: 15px;
     color: var(--Slightly-transparent-white);
     font-weight: 400;
     line-height: 1.8;
-     opacity:0.6;
+    padding-right: 5rem;
 }
 
 .container-box1{
-  
+    
     width: 50%;
     background-color: var(--Dark-desaturated-blue);
-    padding: 30px 75px 30px 60px;
+    padding: 50px 75px 30px 90px;
     
 }
 .img2 img{
@@ -83,25 +83,25 @@ p{
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
-    margin-top: 3rem;
+    margin-top: 5rem;
     padding:0 3rem 0 0;
      font-family:"Inter", sans-serif;
 }
 ul{
     list-style: none;
     padding:0;
-    line-height: 1.8;
+    line-height: 1.6;
 
 }
 .fat{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
 }
 .thin{
-    font-size: 10px;
+    font-size: 12px;
     text-transform: uppercase;
     color: var(--Slightly-transparent-white);
-    opacity:0.6;
+    opacity: 0.8;
 }
 .third-column li.fat{
     text-transform: uppercase;
